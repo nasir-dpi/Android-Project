@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sogir.myproject6.MainActivity">
+
+    <EditText
+    android:id="@+id/nameValue"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Inter Name"/>
+    <EditText
+        android:id="@+id/ageValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Inter Age"/>
+<CheckBox
+    android:id="@+id/javaCB"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Java"
+    android:onClick="selectLanguage"
+
+    />
+    <CheckBox
+        android:id="@+id/javaScriptCB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Java Script"
+        android:onClick="selectLanguage"
+
+        />
+
+    <CheckBox
+        android:id="@+id/phpCB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Linux"
+        android:onClick="selectLanguage"
+
+        />
+    <CheckBox
+        android:id="@+id/cppCB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C++"
+        android:onClick="selectLanguage"
+
+        />
+
+    <RadioGroup
+        android:id="@+id/grnderRG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:id="@+id/maleRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:checked="true"
+            />
+        <RadioButton
+            android:id="@+id/femaleRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/typeRG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:id="@+id/baseRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Base Salaried"
+            android:checked="true"
+            />
+        <RadioButton
+            android:id="@+id/hourlyRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hourly Salaried"
+            />
+    </RadioGroup>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="register"
+        android:onClick="registerEmployee"
+        />
+
+</LinearLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sogir.myproject6.EmployeeDetailsActivity">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Name :"
+                android:textSize="18sp"
+                android:layout_weight="1"
+
+                />
+            <TextView
+                android:id="@+id/showname"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:textSize="18sp"
+                android:layout_weight="2"
+
+                />
+        </TableRow>
+
+
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Age :"
+                android:textSize="18sp"
+                android:layout_weight="1"
+
+                />
+            <TextView
+                android:id="@+id/showage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:textSize="18sp"
+                android:layout_weight="2"
+
+                />
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Skills :"
+                android:textSize="18sp"
+                android:layout_weight="1"
+
+                />
+            <TextView
+                android:id="@+id/showSkills"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:textSize="18sp"
+                android:layout_weight="2"
+
+                />
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Gender :"
+                android:textSize="18sp"
+                android:layout_weight="1"
+
+                />
+            <TextView
+                android:id="@+id/showGender"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:textSize="18sp"
+                android:layout_weight="2"
+
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Type :"
+                android:textSize="18sp"
+                android:layout_weight="1"
+
+                />
+            <TextView
+                android:id="@+id/showType"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:textSize="18sp"
+                android:layout_weight="2"
+
+                />
+        </TableRow>
+
+
+    </TableLayout>
+
+</LinearLayout>
